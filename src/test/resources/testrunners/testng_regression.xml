@@ -6,6 +6,7 @@
 
 		<listener class-name="com.qa.ecommerce.listeners.ExtentReportListeners" />
 		<listener class-name="com.qa.ecommerce.listeners.TestAllureListener" />
+		<listener class-name="com.qa.opencart.listeners.AnnotationTransformer" />
 
 	</listeners>
 
