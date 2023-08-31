@@ -56,7 +56,7 @@ public class RegisterUserPage {
 		util.doClickByAction(continueBtn);
 		
 		String sucessMessage= util.getElementWithWait(successMsg, AppConstants.DEFAULT_MEDIUM_TIME_OUT).getText();
-		System.out.println("User registration success message is::- "+ sucessMessage);
+		System.out.println("User registration success message ::- "+ sucessMessage);
 		
 		if(sucessMessage.contains(AppConstants.USER_REGISTRATION_SUCCESS_MSG)) {
 			util.doClickByAction(logOutLink);

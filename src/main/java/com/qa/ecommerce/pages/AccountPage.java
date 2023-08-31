@@ -34,7 +34,7 @@ public class AccountPage {
 
 	public String getAccountPageUrl() {
 		String accountUrl = driver.getCurrentUrl();
-		System.out.println("Account Url is ::- " + accountUrl);
+		System.out.println("Account Url ::- " + accountUrl);
 		return accountUrl;
 	}
 
