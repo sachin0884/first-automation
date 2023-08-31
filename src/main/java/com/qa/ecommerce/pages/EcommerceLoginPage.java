@@ -31,7 +31,7 @@ public class EcommerceLoginPage {
 
 	public String getLoginPageUrl() {
 		String pageUrl = driver.getCurrentUrl();
-		System.out.println("current url is ::-" + pageUrl);
+		System.out.println("current page url is ::-" + pageUrl);
 		return pageUrl;
 	}
 
